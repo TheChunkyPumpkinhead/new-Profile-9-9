@@ -1,0 +1,121 @@
+/* background */
+body {
+  background: url("images/nice-abstract.jpg");
+  width: 800px;
+  margin: auto;
+  height: 20px;
+  
+  
+}
+
+/*headers styling*/
+header {
+  background-color: #ce0a2b;
+  margin-bottom: 0px;
+}
+
+main .wrapper h2 {
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+main .intro {
+  font-size: 24px;
+  color: #3de71b;
+}
+/* ---  Navigation --- */
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+}
+/* paragraph styling */
+h1,
+h2,
+p,
+a {
+  text-align: center
+
+}
+
+/* footer Style */
+#home,
+#portfolio,
+#contact {
+  margin-bottom: 120px;
+}
+
+a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+}
+
+a:link {
+  color: rgb(17, 3, 6);
+}
+
+a:hover {
+  color: green;
+}
+
+#about {
+  background-color: #c5c0b8;
+  padding: 20px 0 30px 0;
+  margin: 120px 0;
+}
+
+
+
+/* Mobile*/
+
+@media all and (min-width: 800px) {
+  section {
+    width: 80%;
+   padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
+
+wrapper {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
