@@ -8,6 +8,9 @@ header {
   background-color: #ce0a2b;
   margin-bottom: 0px;
 }
+group{
+  text-align:center;
+}
 
 main .wrapper h2 {
   padding-left: 10px;
@@ -78,7 +81,7 @@ a {
 }
 
 a:link {
-  color: rgb(17, 3, 6);
+  color: rgb(228, 66, 101);
 }
 
 a:hover {
@@ -103,6 +106,7 @@ a:hover {
 
   .group {
     flex-direction: row;
+    
   }
 }
 
@@ -113,6 +117,7 @@ wrapper {
 .group {
   display: flex;
   flex-direction: column;
+  text-align:center;
 }
 
 .item {
