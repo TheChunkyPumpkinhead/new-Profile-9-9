@@ -1,11 +1,23 @@
 /* background */
 body {
-  background: url("images/nice-abstract.jpg");
-  }
+  background:aqua;
+}
+div.box {
+  text-align:center
+}
+/* this next code centers the text in the middle of the box! I can't figure out why i have boves!*/
+
+h1, h2, p, a {
+  text-align: center;
+}
+
+h2 {
+  margin-top: -16px;
+}
 
 /*headers styling*/
 header {
-  background-color: #ce0a2b;
+  background-color:aqua;
   margin-bottom: 0px;
 }
 group{
@@ -13,7 +25,7 @@ group{
 }
 
 main .wrapper h2 {
-  padding-left: 10px;
+  padding-left: 50px;
   margin-bottom: 0;
 }
 
@@ -34,10 +46,7 @@ header nav ul {
   flex-direction: row;
   padding-bottom: 10;
 }
-main .intro {
-  font-size: 24px;
-  color: #3de71b;
-}
+
 
 /*this next code hides dots!why? */
 header nav ul li {
@@ -52,26 +61,22 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #bdbdbd;
+  color:magenta;
 }
-/* paragraph styling */
-h1,
-h2,
-p,
-/* this next code centers the text in the middle of the box! I can't figure out why i have boves!*/
-a {
-  text-align: center;
 
+main .intro {
+  font-size: 24px;
+  color: #3de71b;
 }
+
+
 main .intro {
   font-size: 20px;
   color: #181a18;
 }
 
 /* footer Style */
-#home,
-#portfolio,
-#contact {
+#home, #portfolio, #contact {
   margin-bottom: 120px;
 }
 
@@ -94,9 +99,7 @@ a:hover {
   margin: 120px 0;
 }
 
-
-
-/* Mobile*/
+/* Mobile */
 
 @media all and (min-width: 800px) {
   section {
