@@ -1,38 +1,42 @@
 /* background */
 body {
-  background:aqua;
+  background:rgb(222, 245, 245);
 }
 div.box {
   text-align:center
 }
-/* this next code centers the text in the middle of the box! I can't figure out why i have boves!*/
 
-h1, h2, p, a {
-  text-align: center;
+/* center most */
+h1{
+  text-align:center;
+  color:firebrick;
+  font-size:60px;
+  
 }
 
-h2 {
-  margin-top: -16px;
+
+ p{
+  text-align:center; 
+ } 
+ 
+ 
+
+ h2{
+   text-align:center;
+ }
+
+/* combines my name and software developer */
+h1 {
+  margin-top: -30px;
 }
 
 /*headers styling*/
-header {
-  background-color:aqua;
-  margin-bottom: 0px;
-}
-group{
-  text-align:center;
-}
-
 main .wrapper h2 {
   padding-left: 50px;
   margin-bottom: 0;
 }
 
-main .intro {
-  font-size: 24px;
-  color: #3de71b;
-}
+
 /* ---  Navigation --- */
 
 header nav {
@@ -47,14 +51,13 @@ header nav ul {
   padding-bottom: 10;
 }
 
-
-/*this next code hides dots!why? */
+/* this takes away the dots */
 header nav ul li {
   list-style-type: none;
 }
 
 header nav ul li a {
-  color: #fff;
+  color:rgb(241, 209, 24);
   text-decoration: none;
   padding: 0 20px 0 0;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -65,38 +68,61 @@ header nav ul li a:hover {
 }
 
 main .intro {
-  font-size: 24px;
-  color: #3de71b;
-}
-
-
-main .intro {
-  font-size: 20px;
+  font-size: 30px;
   color: #181a18;
 }
 
-/* footer Style */
-#home, #portfolio, #contact {
+
+home{
   margin-bottom: 120px;
-}
+} 
+
+
 
 a {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 30px;
 }
 
-a:link {
-  color: rgb(228, 66, 101);
-}
-
-a:hover {
-  color: green;
-}
-
-#about {
-  background-color: #c5c0b8;
+ #about {
+  background-color: rgb(188, 235, 235);
   padding: 20px 0 30px 0;
   margin: 120px 0;
+ }
+
+ #portfolio{
+margin-bottom: 120px;
+ }
+
+
+ 
+
+/* Contact */
+/* moves everything center */
+
+#contact ul {
+  display:flex; 
+   justify-content: center; 
+  list-style-type: none;
+}
+ h3{
+  margin-top:90px;
+  text-align:center;
+  font-size:40px;
+}
+h4{
+  margin-top:40px;
+  text-align:center;
+  font-size:30px;
+}
+h5{
+  font-size:20px;
+  text-align:center;
+}
+form{
+  margin-top:20px;
+  margin-bottom:60px;
+   text-align:center; 
 }
 
 /* Mobile */
@@ -117,11 +143,11 @@ wrapper {
   width: 100%;
 }
 
-.group {
+ .group {
   display: flex;
   flex-direction: column;
   text-align:center;
-}
+} 
 
 .item {
   flex: 1;
