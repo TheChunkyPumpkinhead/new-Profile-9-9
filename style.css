@@ -3,14 +3,22 @@ body {
   background:rgb(222, 245, 245);
 }
 div.box {
-  text-align:center
+  display:flex;
+  text-align:right;
+  padding-top:50px;
+  font-size:20px;
+
+}
+me{
+  text-align:right;
 }
 
 /* center most */
 h1{
   text-align:center;
   color:firebrick;
-  font-size:60px; 
+  font-size:60px;
+  padding:20px; 
 }
 
  p{
@@ -32,7 +40,6 @@ main .wrapper h2 {
   margin-bottom: 0;
 }
 
-
 /* ---  Navigation --- */
 
 header nav {
@@ -44,7 +51,8 @@ header nav {
 header nav ul {
   display: flex;
   flex-direction: row;
-  padding-bottom: 10;
+  padding-bottom: 50;
+  padding-top:-40px;
 }
 
 /* this takes away the dots */
@@ -55,7 +63,7 @@ header nav ul li {
 header nav ul li a {
   color:rgb(241, 209, 24);
   text-decoration: none;
-  padding: 0 20px 0 0;
+  padding: 20px 10px 20px 0px;
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
@@ -89,9 +97,6 @@ a {
  #portfolio{
 margin-bottom: 120px;
  }
-
-
- 
 
 /* Contact */
 /* moves everything center */
@@ -141,6 +146,12 @@ h5{
   font-size:20px;
   text-align:center;
 }
+h6{
+  font-size:50px;
+  text-align:center;
+  padding-bottom: 40px;
+}
+
 form{
   margin-top:20px;
   margin-bottom:60px;
