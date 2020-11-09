@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="En">
 
 <head>
 	<meta charset="utf-8">
@@ -12,9 +12,7 @@
 <body>
   <header>
 		<h1>Chris Campos</h1>
-    <h1>Software Developer</h1>
-    <h5>Curently located in San Diego, California.</h5>
-    <nav>
+   <nav>
       <ul id="menu">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -24,56 +22,56 @@
     </nav>
   </header>
 
-
   <main>
-    <div class=box>
+  <section id="home">
+    <div class="wrapper">
+      <div class="box">
       <img src="images/me-on-a-bike.jpg" width="300" alt="Profile Picture">
+      <p>Hello, I am in the process of learning for my new career.I'm currently a student at Thinkful studying Software Engineering.eBelow you will see a little bit about me, my portfolio and a way to contact me! Happy scrolling!<p>
+       </div> 
     </div>
+  </section>
+  </main>
   
-    
     <article id="about">
       <div class="wrapper">
         <h3>About me</h3>
-        <div class='group'>
-          <div class='item-double'>
-            <p class="intro"> Howzit! My name is Chris Campos.</p>
-            <p>I am in the process of learning for my new career in Software Engineering. I am excited to be in this awesome field and working with amazing and talented Developers! I will be a full stack developer with a passion for front end projects. Before this new chapter in my life, I was in Sales. I can be found hanging out with my dog, Paddling, and checking out new Food Joints. Yup, in that order!</p>
+        <div class="group">
+          <div class="item-double">
+            <p class="intro"> 
+            <p> Howzit! I am excited to be in this awesome field and working with amazing and talented Developers! I will be a full stack developer with a passion for front end projects. Before this new chapter in my life, I was in Sales. I can be found hanging out with my dog, Paddling, and checking out new Food Joints. Yup, in that order!</p>
           </div>
-          <div class='item'>
+          <div class="item">
             <img src="images/me-paddling.jpg" alt="Paddling">
           </div>
         </div>
       </div>
     </article>
-  <div class="wrapper">
+    <div class="wrapper">
       <article id="portfolio">
         <h3>Portfolio</h3>
-        <div class='group'>
-          <div class='item'>
+        <div class="group">
+          <div class="item">
             <h4>Project 1</h4>
-            <h5> Website from scractch</h5>
+            <h5>Website from scractch</h5>
             <img src="images/Website-pic-for-profile.png" alt="placeholder">
-           <p>As a part of Thinkful's Program, I was required to build a personal webpage. I used basic HTML and CSS to create a functional webpage."</p>
-          
-            <ahref="https://github.com/TheChunkyPumpkinhead/Chriscampos-website" target="_blank">Link to Repository</a>
-
-             <ahref="https://chriss-webpage.chriscampos2.repl.co/" target="_blank">Link to Webpage</a>
+            <p>As a part of Thinkful's Program, I was required to build a personal webpage. I used basic HTML and CSS to create a functional webpage.</p>
+            <a href="https://github.com/TheChunkyPumpkinhead/Chriscampos-website" target="_blank">Link to Repository</a>
+            <a href="https://chriss-webpage.chriscampos2.repl.co/" target="_blank">Link to Webpage</a>
             
-         <h4>Project 2 </h4>
+            <h4>Project 2</h4>
             <h5>Project Coming</h5>
             <img src="images/coming-soon-4-profile.jpg" alt="placeholder">
-           <p>As a part of Thinkful's Program, I was required to build this. I used basic HTML and CSS to make this."</p>
-          
+            <p>As a part of Thinkful's Program, I was required to build this. I used basic HTML and CSS to make this.</p>
             <a href="https://github.com/TheChunkyPumpkinhead" target="_blank">Link to Repository</a>
-
           </div>
+        </div>
       </article>
-     
-   </div>
-          
-</main>
-
-
+    </div>
+  
+  
+  
+  <section id="Contact">
   <h4>Contact</h4>
   <nav>
     <ul>
@@ -82,33 +80,30 @@
       <li><a href="https://github.com/TheChunkyPumpkinhead"><i class="fab fa-github"></i></a></li>
     </ul>
   </nav>
+  <form id="contact-form"
+    action="https://formspree.io/f/mbjpondb"
+    method="post">
+    <label for="first-name">First Name</label>
+    <input name="first-name" type="text" id="first-name" required />
 
-    <form id="contact-form"
-          action="https://formspree.io/f/mbjpondb"
-          method="post">
-          <label for="first-name">First Name</label>
-          <input name="first-name" type="text" id="first-name" required />
+    <label for="last-name">Last Name</label>
+    <input name="last-name" type="text" id="last-name" />
 
-          <label for="last-name">Last Name</label>
-          <input name="last-name" type="text" id="last-name" />
+    <label for="email">Email</label>
+    <input name="email" type="email" id="email"/>
 
-          <label for="email">E-mail</label>
-          <input name="email" type="email"/>
+    <label for="message">Message</label>
+    <textarea name="message" id="message"
+      cols="10"
+      rows="1"
+      required
+    ></textarea>
 
-          <label for="message">Message</label>
-          <textarea name="message" id="message"
-            cols="10"
-            rows="1"
-            required
-          ></textarea>
-
-          <button type="submit" id="submit">Submit</button>
-        </form>
-      
-    
-
-    <!-- Footer -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-   
+    <button type="submit" id="submit">Submit</button>
+  </form>
+  </section>
+  <!-- Footer -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</body>
 
 
